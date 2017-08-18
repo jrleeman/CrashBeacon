@@ -1,7 +1,7 @@
 int buzzerPin = 3; // PWM pin the buzzer is connected to
 int armPin = 4; // Arming wire pin
 int fall_duration = 0; // Fall duration counter
-int fall_duration_threshold = 2; // Threshold for alarm activation
+int fall_duration_threshold = 4; // Threshold for alarm activation
 
 void setup() {
   Bean.setAccelerationRange(4); // +/- 4g
